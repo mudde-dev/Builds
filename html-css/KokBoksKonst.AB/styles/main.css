@@ -1,0 +1,196 @@
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+    
+.loginpage{
+  /* background-image: url(../images/tomatoes-tomatoes-lemon-leaves-garlic-bottle-oil.jpg); */ /* Link to nice background img if you want it */
+  background-color: #DA9F6D;
+  display: grid;
+  grid-template-rows: repeat(3, 33%);
+
+}
+
+
+/* trying to fix the centering issue with flex  - it worked!
+now i have to get a second opinion is the parent class is needed
+the div might be needed but i not that sure about the css
+parent class. let me know */
+
+/*
+.parent-login{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+  
+} */
+
+.child-login{
+  display: flex;
+  align-items: center;
+  flex-direction: column  ;
+  font-size: 150%; /* Made the font bigger for login - Simon */
+  font-weight: bold; /* Made the font bolder for login - Simon */
+
+}
+
+.subLoginContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+/* i also made the color change once you hover over the text, kinda
+neat for almost blind grandma */
+
+.subLoginContainer :hover{
+  color: blue;
+}
+
+
+/* experimenting with the search bar */
+
+.searchbox {  
+  display: flex;
+  justify-content: flex-end;  
+}  
+
+
+input[type=text] {  
+  padding: 6px;  
+  margin-top: 8px;  
+  font-size: 17px;  
+  border-radius: 20px; 
+}  
+
+.searchbox button {  
+  
+  padding: 8px;  
+  margin-top: 10px;  
+  margin-left: 10px;  
+  background: orange;  
+  font-size: 10px;  
+  border-radius: 20px;
+  cursor: pointer;  
+}  
+
+.searchbox button:hover {  
+  background: blue;  
+} 
+
+
+
+.nav-link{
+  display: flex;
+  color: orange; 
+  }
+
+.headerContainer {
+
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    align-items: center;  
+    background-color: #57281C;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+
+
+    h1 {      
+        color: antiquewhite;   
+    }
+    h2{
+        color: antiquewhite;  
+        font-weight: lighter;
+        font-size: medium;  
+    }
+
+}
+
+/* movement logic for the log-out button*/
+.logout-button{
+  display: flex;
+  justify-content: flex-end;
+
+
+
+
+/* styles for RecipePage.html */
+}
+body.recipe-page{
+  /* background-color: #DA9F6D; */
+  background-image: url(../images/tomatoes-tomatoes-lemon-leaves-garlic-bottle-oil.jpg);
+  background-size: auto; /* TODO - Size of background needs to be adjusted, might get fixed when I add Flexbox / Grid*/
+}
+
+#popular-recipes {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.recipes img {
+  width: 400px;
+  height: auto;
+  border-radius: 100px; /* Rounding edges for the images */
+  transition: all 1s;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px; /* Adjust the gap between grid items */
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.recipes {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Add some space between the image and the heading */
+/* .recipes h2 {
+  margin-top: 10px; 
+} */
+
+.main-page{
+ background-image: url(../images/tomatoes-tomatoes-lemon-leaves-garlic-bottle-oil.jpg)
+}
+
+.main-names{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  display: grid;
+  align-content: center;
+}
+
+.link-name{
+  color: magenta;
+ 
+}
+
+.hem{
+  color: antiquewhite;
+}
