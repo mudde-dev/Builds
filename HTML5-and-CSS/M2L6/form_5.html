@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>form_5</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="./css/form_5.css" />
+</head>
+
+<body>
+  <form class="formContainer" id="whoAreYou" method="post">
+    <div class="formIntroContainer">
+      <div>
+        <h1>Who are you?</h1>
+        <h2>
+          Tell us a little bit of yourself.
+        </h2>
+      </div>
+      <b>Note: an asterisk (*) indicates a required field</b>
+    </div>
+    <fieldset>
+      <legend>Tell us about your pet <span>(1 of 3)</span></legend>
+      <div class="formInputContainer">
+        <input id="havePet" name="havePet" type="checkbox" required />
+        <label for="havePet">Do you have a pet?</label>
+      </div>
+
+      <div class="formInputContainer">
+        <input id="petName" name="petName" type="text" placeholder="e.g. Woffie" required />
+        <label for="petName">What is your pet's name?</label>
+      </div>
+      <div class="formInputContainer">
+        <input id="petAge" name="petAge" type="number" min="0" max="100" required />
+        <label for="petAge">How old is your pet?</label>
+      </div>
+      <div class="formInputContainer">
+        <input id="petGender" name="petGender" type="text" list="gender" required />
+        <label for="petGender">What is your pet's gender?</label>
+        <datalist id="gender">
+          <select>
+            <option value="Female"></option>
+            <option value="Male"></option>
+            <option value="Don't know"></option>
+          </select>
+        </datalist>
+ 
+      </div>
+      <div class="formInputContainer">
+        <textarea id="petLikeBest" name="petLikeBest" placeholder="He likes to run around in the garden..."></textarea>
+        <label for="petLikeBest">What does your pet enjoy most?</label>
+      </div>
+      <div class="formInputContainer">
+        <span class="formSliderContainer">
+          <input id="petActivity" name="petActivity" type="range" min="1" max="10" value="5"
+            onchange="showValue(this.value)" /><span id="range">5</span>
+        </span>
+        <label for="petActivity">How active is your pet? (1: lazy, 10: full of energy)</label>
+      </div>
+      <div class="formInputContainer">
+        <input id="petSleep" name="petSleep" type="number" min="0" max="24" value="5" required />
+        <label for="petSleep">How many hours does your pet sleep per day?</label>
+      </div>
+
+      <script>
+        function showValue(newValue) {
+          document.getElementById("range").innerHTML = newValue;
+        }
+      </script>
+    </fieldset>
+
+    <fieldset>
+      <legend>Tell us about your other favorites <span>(2 of 3)</span></legend>
+
+      <div class="formInputContainer">
+        <input id="favoriteNews" name="favoriteNews" type="url" placeholder="http://www.anewssite.com" />
+        <label for="favoriteNews">What is the web address of your most important news source?</label>
+      </div>
+
+      <div class="formInputContainer">
+        <input id="favoriteColor" name="favoriteColor" type="color" />
+        <label for="favoriteColor">What is you favorite color?</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Tell us about yourself <span>(3 of 3)</span></legend>
+
+      <div class="formInputContainer">
+        <input id="personName" name="personName" pattern="^([\D]{2,30}\s+)+([a-zA-Z]{2,30})$" placeholder="John Smith"
+          required />
+        <label for="personName">What is your name?</label>
+      </div>
+      <div class="formInputContainer">
+        <input id="personBirthDate" class="personBirthDate" type="date" name="personBirthDate" />
+        <label for="personBirthDate">When were you born?</label>
+      </div>
+      <div class="formInputContainer">
+        <input id="personPhone" name="personPhone" type="personPhone" placeholder="1-234-546758" autocomplete="off"
+          required />
+        <label for="personPhone">What is your phonenumber?</label>
+      </div>
+      <div class="formInputContainer">
+        <input id="personEmail" name="personEmail" type="email" placeholder="john.smith@gmail.com" required />
+        <label for="personEmail">What is your email address_</label>
+</div>
+     </fieldset>
+
+    <button class="form-Submit_Btn" type="submit" value="Submit Redemption">
+      <span class="flipper">
+        <span class="flipper-object flipper-vertical">
+          <span class="panel front">Ready?</span>
+          <span class="panel back">Submit</span>
+        </span>
+      </span>
+    </button>
+  </form>
+</body>
+
+</html>

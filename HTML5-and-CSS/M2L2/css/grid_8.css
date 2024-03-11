@@ -1,0 +1,46 @@
+.GridPage {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color:indigo;
+  grid-template-areas:
+    'header header header header header header header header'
+    'side1 main main main main main side2 side2'
+    'side1 footer footer footer footer footer footer footer';
+  height: 100vh;
+}
+
+[class^='GridItem'] {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  outline: 3px dashed #f90;
+  font-size: 30px;
+  color:wheat;
+}
+
+.GridItemHeader {
+  grid-area: header;
+  background-color: red;
+}
+
+.GridItemSideOne {
+  grid-area: side1;
+  background-color:green
+}
+
+.GridItemSideTwo {
+  grid-area: side2;
+  background-color: yellow;
+}
+
+.GridItemMain {
+  grid-area: main;
+  background-color: orange;
+}
+
+.GridItemFooter {
+  grid-area: footer;
+  background-color: steelblue;
+}

@@ -1,0 +1,30 @@
+div {
+	height: 20vmin;
+	width: 20vmin;
+	border: 1px solid #111;
+	margin: 1em;
+	display: inline-flex;
+	font-family: sans-serif;
+	align-items: center;
+	justify-content: center;
+}
+
+.box-shadow {
+	box-shadow: 0 0 15px blue;
+	background: linear-gradient(blue, pink);
+}
+
+.inner-box-shadow {
+	box-shadow: inset 0 0 15px violet;
+	background: linear-gradient(to bottom right, blue, pink);
+}
+
+.no-spread {
+  box-shadow: 0 10px 10px;
+  background: linear-gradient(70deg, blue, pink);
+}
+
+.spread {
+  box-shadow: 0 10px 10px -10px;
+  background: linear-gradient(to top left, blue, 20%, pink);
+}

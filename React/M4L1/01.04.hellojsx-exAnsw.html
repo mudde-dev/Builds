@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<title>Layout example</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="./css/flexbox_5.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="../favicon_io/site.webmanifest">
+</head>
+
+<body>
+	<div id="app"></div>
+	<script src="../react-lib/react.js"></script>
+	<script src="../react-lib/react-dom.js"></script>
+	<script src="../react-lib/babel.js"></script>
+	<script type="text/babel">
+		ReactDOM.createRoot(document.getElementById('app'))
+			.render(<div className="FlexWrap">
+				<div className="FlexItem Red">Red box</div>
+				<div className="FlexItem Orange">Orange box</div>
+				<div className="FlexItem Green">Green box</div>
+				<div className="FlexItem Yellow">Yellow box</div>
+				<div className="FlexItem Blue">Blue box</div>
+			</div>);
+	</script>
+
+</body>
+
+</html>

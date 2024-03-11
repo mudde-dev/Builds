@@ -1,0 +1,79 @@
+.cardTable {
+	background-color: green;
+	width: 100%;
+	height: 100%;
+
+}
+
+.flexContainer {
+	perspective: 10000px;  /* just to avoid any distortions */
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content:space-evenly;
+}
+
+
+.flexItem {
+	width: 162px;
+	height: 228px;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+
+.playingCard {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 162px;
+	height: 228px;
+	position: absolute;
+	backface-visibility: hidden;
+
+	background-image: url(../img/cards.jpg);
+	border-radius: 3%;
+}
+
+/* using CSS variabless to positioning with the playing card sprite */
+.playingCard.front.cardOne {
+	--cardRow:0;
+	--cardCol:0;
+}
+.playingCard.front.cardTwo {
+	--cardRow:2;
+	--cardCol:2;
+}
+.playingCard.front.cardThree {
+	--cardRow:2;
+	--cardCol:1;
+}
+.playingCard.front.cardFour {
+	--cardRow:2;
+	--cardCol:0;
+}
+.playingCard.front.cardFive {
+	--cardRow:1;
+	--cardCol:4;
+}
+
+/* calculate the offset to position the sprite withing the background-image */ 
+.playingCard.front {
+
+	background-position: top calc(-37px - var(--cardRow)*24px - var(--cardRow)*228px) left calc(-47px - var(--cardCol)*24px - var(--cardCol)*162px);
+}
+
+.playingCard.back {
+	background-position: top 345px left 209px;
+	background-position: top calc(-37px - 2*24px - 2*228px) left calc(-47px - 4*24px - 4*162px);
+}
+
+.horizontalFlip .playingCard.back {
+	transform: rotateY(180deg);
+}
+
+.flexContainer:hover .horizontalFlip {
+	transform: rotateY(180deg);
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Media Query test - which browser downloads which asset?</title>
+    <meta name="description" content="Quick test to determine which browsers download all media queries" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      @import url("./css/wDefault.css");
+      @import url("./css/w300.css") screen and (min-width: 300px);
+      @import url("./css/w600.css") screen and (min-width: 600px);
+      @import url("./css/w900.css") screen and (min-width: 900px);
+      @import url("./css/w1200.css") screen and (min-width: 1200px);
+    </style>
+   </head>
+  <body>
+    <div class="w300">stylesheet file css/w300.css is in use</div>
+    <div class="w600">stylesheet file css/w600.css is in use</div>
+    <div class="w900">stylesheet file css/w900.css is in use</div>
+    <div class="w1200">stylesheet file css/w12000.css is in use</div>
+  </body>
+</html>

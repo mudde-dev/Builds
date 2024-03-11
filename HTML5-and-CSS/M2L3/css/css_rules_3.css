@@ -1,0 +1,91 @@
+/* this rule will apply the html and body tags */
+:root,     /* same as the html element */
+body {		
+	margin: 0;
+	padding: 0rem;
+}
+
+/* this rule will apply for all h1 and all <p> tags */
+h1, p {
+	padding: 0 1rem;
+}
+
+/* this rules apply to the first line of all p tags */
+p::first-line {
+	font-weight: bold;
+}
+
+/* this rule applywhen hovering over any p tag */
+p:hover {
+	font-weight:bold;
+}
+
+/* this rule will apply for all tags with class="Scroll_Wrapper" */
+.Scroll_Wrapper {
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+
+	/* Make a css counter */
+	counter-reset: count-the-films;
+}
+
+/* this rule will apply for all tags with class="Scroll_Wrapper" */
+.Item {
+	display: inline-flex;
+	white-space: normal;
+
+	/* Increment counter for every item being rendered */
+	counter-increment: count-the-films;
+	position: relative;
+}
+
+/* this rull will apply when you move the curser over a tag with class="Item" */
+.Item:hover {
+	background-color: lightgrey;
+	border-radius: 5%;
+}
+
+.Item::before {
+	/* Add the counter to be shown as content: before the item */
+	content: counter(count-the-films);
+	position: absolute;
+	display: flex;
+	font-size: 1rem;
+	line-height: 1rem;
+	top: -0.5rem;
+	left: -0.5rem;
+	height: 1rem;
+	width: 1.1rem;
+	background-color: #ccc;
+	border: 1px solid #999;
+	border-radius: 20%;
+	padding-top: 0.1rem;
+	padding-left: 0.3rem;
+}
+
+/* this rule will apply for all img tags wich are children of a tag with class="Item" */
+.Item img {
+	max-height: 7.25rem;
+}
+
+
+.Item img[data-size-display="large"] {
+	max-height: 10rem;
+}
+.Item img[data-size-display="small"] {
+	max-height: 5rem;
+}
+
+img[data-size-display="large"][alt="Maleficent"] {
+	max-height: 20rem;
+}
+/* this rule will apply for all tags with class="Caption" which are children of a 
+   tag with class="Item" */
+.Item .Caption {
+	max-width: 4rem;
+	padding-left: .5rem;
+	font-size: 1.2rem;
+	line-height: 1.2;
+}

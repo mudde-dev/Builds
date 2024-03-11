@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form POST</title>
+  </head>
+  <body>
+    <h1>Form POST</h1>
+    <p>To run example, start the server by opening a terminal in ./server and type: node simple-server.js</p>
+
+    <h2>This is the form where you add give the directory name</h2>
+    <form id="formAddServerDictory" method="post">
+      <label for="directory">Directory:</label>
+      <input type="text" id="directory" name="directory" />
+ 
+      <div>
+      <label for="fileXmit1">Image:</label>
+      <input type="file" id="fileXmit1" name="fileXmit1" />
+      </div>
+      <div>
+        <label for="fileXmit2">Image:</label>
+        <input type="file" id="fileXmit2" name="fileXmit2" />
+      </div>
+  
+      <input type="submit"/>
+    </form>
+    <script src="./script/index.js"></script>
+  </body>
+</html>

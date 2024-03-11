@@ -1,0 +1,63 @@
+.GridPage {
+  display: grid;
+  grid-gap: 10px;
+  background-color: indigo;
+  height: 100vh;
+
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 50px 1fr 30px;
+
+  grid-template-areas:
+    'header header header header header header header header'
+    'side1 main main main main main side2 side2'
+    'side1 footer footer footer footer footer footer footer';
+}
+
+
+@media (max-width: 600px) {
+  .GridPage {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 50px repeat(3, 1fr) 30px;
+
+    grid-template-areas:
+      'header header header header header header header header'
+      'main main main main main main main main'
+      'side1 side1 side1 side1 side1 side1 side1 side1'
+      'side2 side2 side2 side2 side2 side2 side2 side2'
+      'footer footer footer footer footer footer footer footer';
+  }
+}
+
+[class^='GridItem'] {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  outline: 3px dashed #f90;
+  font-size: 30px;
+  color: wheat;
+}
+
+.GridItemHeader {
+  grid-area: header;
+  background-color: red;
+}
+
+.GridItemSideOne {
+  grid-area: side1;
+  background-color: green
+}
+
+.GridItemSideTwo {
+  grid-area: side2;
+  background-color: yellow;
+}
+
+.GridItemMain {
+  grid-area: main;
+  background-color: orange;
+}
+
+.GridItemFooter {
+  grid-area: footer;
+  background-color: steelblue;
+}

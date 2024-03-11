@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/students.css" />
+  <title>responsive_tables_1</title>
+</head>
+
+<body>
+  <main>
+
+    <div class="tableFluid">
+      <div class="theadFluid">
+        <div class="trFluid">
+          <div class="trFluid_Grouping2">
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent">First Name</div>
+              <div class="tdFluent">Last Name</div>
+            </div>
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent">Email</div>
+              <div class="tdFluent">Birthday</div>
+            </div>
+          </div>
+          <div class="trFluid_Grouping2 num">
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Min</div>
+              <div class="tdFluent num">Max</div>
+            </div>
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Avg</div>
+              <div class="tdFluent num">Last</div>
+            </div>
+            <div class="trFluid_Grouping1 button">
+              <div class="tdFluent button" style="visibility: hidden;"><button></button></div>
+              <div class="tdFluent button"><button class="addButton">add</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tbodyFluid">
+        <!-- Keep these rows first when I debugg the js code to fill the table, so I get the right format and content -->
+        <!-- now, remove them
+        <div class="trFluid">
+          <div class="trFluid_Grouping2">
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent">John</div>
+              <div class="tdFluent">Smith</div>
+            </div>
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent" title="john.smith@gmail.com">john.smith@gmail.com</div>
+              <div class="tdFluent">March 14, 1969</div>
+            </div>
+          </div>
+          <div class="trFluid_Grouping2 num">
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">1,024</div>
+              <div class="tdFluent num">65,536</div>
+            </div>
+
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">5,120</div>
+              <div class="tdFluent num">7,680</div>
+            </div>
+            <div class="trFluid_Grouping1 button">
+              <div class="tdFluent button"><button>del</button></div>
+              <div class="tdFluent button"><button>edit</button></div>
+            </div>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <div class="tfootFluid">
+        <!--
+        <div class="trFluid">
+          <div class="trFluid_Grouping2">
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent"></div>
+              <div class="tdFluent"></div>
+            </div>
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent"></div>
+              <div class="tdFluent"></div>
+            </div>
+          </div>
+          <div class="trFluid_Grouping2 num">
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Min val</div>
+              <div class="tdFluent num">Max val</div>
+            </div>
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Avg</div>
+              <div class="tdFluent num">Avg</div>
+            </div>
+             
+         <div class="trFluid_Grouping1 button">
+          <div class="tdFluent button"><button>del</button></div>
+          <div class="tdFluent button"><button>edit</button></div>
+        </div>
+        -->
+      </div>
+    </div>
+  </main>
+</body>
+
+<!-- To use ES6 modules as html script set the type="module"as below -->
+<script type="module" src="./script/students.js"></script>
+
+</html>
+
+<!--
+  1. In function implementDelButtom, write code so a row is deleted, corresponding data remove, and the footer data recalculated
+  2. In function implementAddButtom, write code so a new student is inserted in the right place, depending on sort order and table and footer re-rendered
+
+  Make your own new list in below exercises:
+  3. create a responsive web page that shows a list with columns "Suit", "Numeral", "Value" and "Description". Decide how you want to divide into responsive groups
+  4. import playing-card.js and deck-of-cards.js from case-study-cards
+  5. write code to populate the list with a fresh deck of cards, for example a columns should say: Heart, Ace, 14, Hearts of Ace is a black numeral card
+
+-->

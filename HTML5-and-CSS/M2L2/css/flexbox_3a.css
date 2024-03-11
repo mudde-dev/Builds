@@ -1,0 +1,61 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.MenuWrap {
+	background-color: indigo;
+	color: #ebebeb;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	display: flex;
+	align-items: flex-start;  /* changed to align around main axis to the left */	
+	padding: 0 1rem;
+	flex-direction: column;	/* makes flexbox change the direction */
+	width:10vw;
+	height:100vh
+}
+
+@media (orientation: landscape){
+	.MenuWrap {
+		flex-direction: row;	/* makes flexbox change the direction */
+		align-items: center;
+
+		height: 2.75rem;
+		width: 100vw;
+	}
+}
+.ListItem, .LastItem {
+	display: flex;
+	color:#ebebeb;
+	text-decoration: none;  /* removes the classic link underline */
+}
+
+.ListItem {
+	margin-bottom: 1rem;		/* change to 1rem; to move to the last item to the bottom */
+}
+.LastItem {
+	margin-top: auto;		/* change to margin-top; to move to the last item to the bottom */
+}
+
+@media (orientation: landscape){
+	.ListItem {
+		margin:unset;
+		margin-right: 1rem;		/* changed to move the last item to the far right */
+		width: 80px;
+	}
+	
+	.LastItem {
+		margin:unset;
+		margin-left: auto;		/* changed to to move to the last item to the far right */
+		width: 80px;
+	}
+}
+
+/*
+.ListItem,
+.LastItem {
+	background-color: gray;
+}
+*/

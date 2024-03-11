@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: #ebebeb;
+}
+
+
+.FlexWrapper {
+  background-color: indigo;
+	font-family: 'Oswald', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.FlexHeader {
+  background-color:red;
+}
+
+.FlexContent {
+  background-color: orange;
+  flex: 5 0 auto;
+}
+
+.FlexFooter {
+  background-color: steelblue;
+}

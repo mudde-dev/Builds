@@ -1,0 +1,41 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.FlexWrap {
+  color: #fff;
+	font-family: 'Oswald', sans-serif;
+  height: 100%;
+  width: 100vw;
+  padding: 20px;
+   
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;        /* test with wrap nowrap */
+  justify-content:space-around;
+}
+
+.FlexItem {
+  height: 150px;
+  width: 200px;     /* fixed size will demonstrate the wrap */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.Red {
+  background: orangered;
+}
+.Green {
+  background: yellowgreen;
+}
+.Blue {
+  background: steelblue;
+}
+
+
+.FlexWrap {
+  border:2px solid black;
+}
+

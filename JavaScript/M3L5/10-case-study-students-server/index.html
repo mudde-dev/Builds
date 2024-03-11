@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/students.css" />
+  <link rel="stylesheet" href="./css/form.css" />
+  <link rel="stylesheet" href="./css/modal-window.css" />
+
+  <title>responsive_tables_1</title>
+</head>
+
+<body>
+  <main class="pageContent">
+
+    <!-- Here is where the normal page should be tagged, in this case the student table -->
+    <div class="tableFluid">
+
+      <div class="theadFluid">
+        <div class="trFluid">
+          <div class="trFluid_Grouping2">
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent">First Name</div>
+              <div class="tdFluent">Last Name</div>
+            </div>
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent">Email</div>
+              <div class="tdFluent">Birthday</div>
+            </div>
+          </div>
+          <div class="trFluid_Grouping2 num">
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Min</div>
+              <div class="tdFluent num">Max</div>
+            </div>
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Avg</div>
+              <div class="tdFluent num">Last</div>
+            </div>
+            <div class="trFluid_Grouping1 button">
+              <div class="tdFluent button" style="visibility: hidden;"><button></button></div>
+              <div class="tdFluent button"><button class="addButton">add</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tbodyFluid">
+        <!-- Keep these rows first when I debugg the js code to fill the table, so I get the right format and content -->
+        <!-- now, remove them
+        <div class="trFluid">
+          <div class="trFluid_Grouping2">
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent">John</div>
+              <div class="tdFluent">Smith</div>
+            </div>
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent" title="john.smith@gmail.com">john.smith@gmail.com</div>
+              <div class="tdFluent">March 14, 1969</div>
+            </div>
+          </div>
+          <div class="trFluid_Grouping2 num">
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">1,024</div>
+              <div class="tdFluent num">65,536</div>
+            </div>
+
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">5,120</div>
+              <div class="tdFluent num">7,680</div>
+            </div>
+            <div class="trFluid_Grouping1 button">
+              <div class="tdFluent button"><button>del</button></div>
+              <div class="tdFluent button"><button>edit</button></div>
+            </div>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <div class="tfootFluid">
+        <!--
+        <div class="trFluid">
+          <div class="trFluid_Grouping2">
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent"></div>
+              <div class="tdFluent"></div>
+            </div>
+            <div class="trFluid_Grouping1">
+              <div class="tdFluent"></div>
+              <div class="tdFluent"></div>
+            </div>
+          </div>
+          <div class="trFluid_Grouping2 num">
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Min val</div>
+              <div class="tdFluent num">Max val</div>
+            </div>
+            <div class="trFluid_Grouping1 num">
+              <div class="tdFluent num">Avg</div>
+              <div class="tdFluent num">Avg</div>
+            </div>
+             
+         <div class="trFluid_Grouping1 button">
+          <div class="tdFluent button"><button>del</button></div>
+          <div class="tdFluent button"><button>edit</button></div>
+        </div>
+        -->
+      </div>
+
+    </div>
+
+    <!-- Here is where the modal windows should be tagged -->
+    <div class="pageContentInModal">
+       <div id="modal1" class="windowModal">
+        <div class="windowModalHeader">
+          <h2>Student scores</h2>
+          <span class="btnCloseModal">&times;</span>
+        </div>
+        <div class="windowModalContent">
+          <form class="formContainer" id="studentScores">
+            <div class="formIntroContainer">
+              <b>Note: an asterisk (*) indicates a required field</b>
+            </div>
+            <fieldset>
+              <legend>Student details <span>(1 of 2)</span></legend>
+
+              <div class="formInputContainer">
+                <input id="studentName" name="studentName" pattern="^([\D]{2,30}\s+)+([a-zA-Z]{2,30})$"
+                  placeholder="John Smith" required />
+                <label for="studentName">Name:</label>
+              </div>
+              <div class="formInputContainer">
+                <input id="studentBirthDate" type="date" name="studentBirthDate" required />
+                <label for="studentBirthDate">Birthdate:</label>
+              </div>
+              <div class="formInputContainer">
+                <input id="studentEmail" name="studentEmail" type="email" placeholder="john.smith@gmail.com" required />
+                <label for="studentEmail">Email address:</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Exam scores <span>(2 of 2)</span></legend>
+              <div class="formInputContainer">
+                <input id="studentScoreMin" name="studentScoreMin" type="number" min="0" max="100" required />
+                <label for="studentScoreMin">Minimum score:</label>
+              </div>
+              <div class="formInputContainer">
+                <input id="studentScoreMax" name="studentScoreMax" type="number" min="0" max="100" required />
+                <label for="studentScoreMax">Maximum score:</label>
+              </div>
+              <div class="formInputContainer">
+                <input id="studentScoreAvg" name="studentScoreAvg" type="number" min="0" max="100" required />
+                <label for="studentScoreAvg">Average score:</label>
+              </div>
+              <div class="formInputContainer">
+                <input id="studentScoreLast" name="studentScoreLast" type="number" min="0" max="100" required />
+                <label for="studentScoreLast">Last score:</label>
+              </div>
+            </fieldset>
+
+            <button class="form-Submit_Btn" type="submit" value="Submit Redemption">
+              <span class="flipper">
+                <span class="flipper-object flipper-vertical">
+                  <span class="panel front">Ready?</span>
+                  <span class="panel back">Submit</span>
+                </span>
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+<!-- To use ES6 modules as html script set the type="module"as below -->
+<script type="module" src="./script/students.js"></script>
+</html>
+
+<!--
+  1. In studends.js, studentScores, eventlistener for 'submit':
+     - write code to close the modal window
+     - Write code to update the students and update the list
+     - write code to remove all children in existing footer
+     - write code to redraw the table, initialize the table
+  
+-->

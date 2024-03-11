@@ -1,0 +1,18 @@
+.container {
+  font-size: 28px;
+  font-family: sans-serif;
+  display: grid;
+  grid-gap: 10px;
+  background-color: #ddd;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  grid-auto-flow: row;
+}
+
+[class^='grid-item'] {
+  outline: 1px #f90 dashed;
+  display: grid;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
+}

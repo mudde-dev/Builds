@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>form_1</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <form method="post">
+            <div>
+                <h1>Who are you?</h1>
+                <h2>
+                    Tell us a little bit of yourself.
+                </h2>
+            </div>
+            <fieldset>
+                <legend>Tell us about your pet</legend>
+                <div>
+                    <label for="havePet">Do you have a pet?</label>
+                    <input id="havePet" name="havePet" type="checkbox" required />
+                </div>
+                <div>
+                    <label for="petName">What is your pet's name?</label>
+                    <input id="petName" name="petName" type="text" placeholder="e.g. Woffie" required />
+                </div>
+                <div>
+                    <label for="petAge">How old is your pet?</label>
+                    <input id="petAge" name="petAge" type="number" min="0" max="100" required />
+                </div>
+                <div>
+                    <label for="petGender">What is your pet's gender?</label>
+                    <input id="petGender" name="petGender" type="text" list="gender" />
+                    <datalist id="gender">
+                        <select>
+                            <option value="Female"></option>
+                            <option value="Male"></option>
+                            <option value="Don't know"></option>
+                        </select>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="petLikeBest">What does your pet enjoy most?</label>
+                    <textarea id="petLikeBest" name="petLikeBest" placeholder="He likes to run around in the garden..." required></textarea>
+                </div>
+                <div>
+                    <label for="petActivity">How active is your pet? (1: lazy, 10: full of energy)</label>
+                    <input id="petActivity" name="petActivity" type="range" min="1" max="10" value="5"/>
+                </div>
+                <div>
+                    <label for="petSleep">How many hours does your pet sleep per day?</label>
+                    <input id="petSleep" name="petSleep" type="number" min="0" max="24" value="5" required />
+                </div>
+             </fieldset>
+            
+            <fieldset>
+                <legend>Tell us about your other favorites</legend>
+                <div>
+                    <label for="favoriteNews">What is the web address of your most important news source?</label>
+                    <input id="favoriteNews" name="favoriteNews" type="url" placeholder="http://www.anewssite.com" />
+                </div>
+                <div>
+                    <label for="favoriteColor">What is you favorite color?</label>
+                    <input id="favoriteColor" name="favoriteColor" type="color" />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tell us about yourself</legend>
+
+                <div>
+                    <label for="personName">What is your name?</label>
+                    <input id="personName" name="personName" pattern="^([\D]{2,30}\s+)+([a-zA-Z]{2,30})$" placeholder="John Smith" required />
+                </div>
+                 <div>
+                    <label for="personBirthDate">When was your birthday?</label>
+                    <input id="personBirthDate" class="personBirthDate" type="date" name="personBirthDate" />
+                </div>
+                <div>
+                    <label for="personPhone">What is your phonenumber?</label>
+                    <input id="personPhone" name="personPhone" type="personPhone" placeholder="1-234-546758" autocomplete="off" required />
+                </div>
+                <div>
+                    <label for="personEmail">What is your email address_</label>
+                    <input id="personEmail" name="personEmail" type="email" placeholder="john.smith@gmail.com" required />
+                </div>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit Redemption" />
+        </form>
+    </body>
+</html>

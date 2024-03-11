@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Select List</title>
+    <style>
+      #nicestuff {
+        display: none;
+        margin: 10px 0;
+      }
+
+      label,
+      legend {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Select List</h1>
+
+    <form id="my-form">
+      <label for="pet-select">Select a nice thing from server:</label>
+
+      <select name="nicething1" id="nice-thing1">
+        <option value="">--Please choose an option--</option>
+        <option value="birds">Birds</option>
+        <option value="flowers">Flowers</option>
+        <option value="sweets">Sweets</option>
+        <option value="critters">Cute Critters</option>
+      </select>
+      <select id="nicestuff1">
+        <option value="">--Please choose an option--</option>
+      </select>
+    </form>
+
+    <div> <br/> 
+    <label>Select a nice thing locally:</label>
+
+      <select name="nicething2" id="nice-thing2">
+        <option value="">--Please choose an option--</option>
+        <option value="birds">Birds</option>
+        <option value="flowers">Flowers</option>
+        <option value="sweets">Sweets</option>
+        <option value="critters">Cute Critters</option>
+      </select>
+      <select id="nicestuff2">
+        <option value="">--Please choose an option--</option>
+      </select>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>

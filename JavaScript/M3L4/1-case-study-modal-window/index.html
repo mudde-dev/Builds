@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/modal-window.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pageContent">
+        <p>This is text behind my modal window</p>        
+       <button id="btnOpenModal"> click me, I make a modal</button>
+
+       <!-- modal1 is the modal window that pops up -->
+        <div id="modal1" class="pageContentInModal">
+            <div class="windowModal">
+                
+                <!-- header and close button -->
+                <div class="windowModalHeader">
+                    <h2>Modal header</h2>
+                    <span class="btnCloseModal">&times;</span>
+                </div>
+
+                <!--Content in modal window -->
+                <div class="windowModalContent">
+                    <p>this is the text inside the modal</p>
+                </div>
+            </div>
+        </div>
+
+        <p>This is also text behind my modal window</p>
+    </div>
+</body>
+<script src="./script/modal-window.js" defer></script>
+
+</html>

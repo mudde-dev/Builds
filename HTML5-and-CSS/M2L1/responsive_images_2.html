@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Media Query Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: green;
+      }
+      img {
+        width: 100%;
+      }
+      @media screen and (min-width: 600px) {
+        body {
+          background-color: yellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <picture>
+      <!-- Make sure the min-width is in descending order-->
+      <source type="image/webp" srcset="img/scones.webp"/>
+      <img src="scones.jpg" alt="Incredible scones"/>
+    </picture>
+</html>
+<!--  Exercise: 
+-->

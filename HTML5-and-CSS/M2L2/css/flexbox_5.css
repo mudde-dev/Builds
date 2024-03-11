@@ -1,0 +1,42 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.FlexWrap {
+  background-color: indigo;
+	font-family: 'Oswald', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  
+  display: flex;
+  flex-wrap: wrap;          /* test with wrap nowrap */
+  align-items: center;      /* alignment along cross axis - center flex-start flex-end */
+  justify-content:space-around;  /* alignment along main axis - center flex-start flex-end space-evenly space-between space-around */
+}
+
+.FlexItem {
+  height: 150px;
+  width: 200px;            /* fixed size will demonstrate the wrap */
+ 
+  text-align: center;      /* align the text within an FlexItem */
+}
+.Red {
+  background: red;
+  align-self: flex-start;   /* to move this item to the top of the flexbox */
+}
+.Orange {
+  background:orange;
+}
+.Green {
+  background: green;
+}
+.Yellow {
+  background-color: yellow ;
+}
+.Blue {
+  background: steelblue;
+  align-self: flex-end;     /* to move this item to the bottom of the flexbox */
+}
+

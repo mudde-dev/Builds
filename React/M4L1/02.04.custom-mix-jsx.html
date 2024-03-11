@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Custom React Component</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="00.normal.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="../favicon_io/site.webmanifest">
+</head>
+
+<body>
+  <div id="app">
+    <!-- my app renders here -->
+  </div>
+  <script src="../react-lib/react.js"></script>
+  <script src="../react-lib/react-dom.js"></script>
+  <script src="../react-lib/babel.js"></script>
+  <script type="text/babel">
+
+    class MyComponent extends React.Component {
+      render() {
+        
+        let errorMsg='errorNone';
+        if (this.props.errorLevel === 'easy')
+        {
+          errorMsg = 'errorEasy';
+        }
+        else if (this.props.errorLevel === 'critical')
+        {
+          errorMsg = 'errorCritical';
+        }
+
+        return <p className={errorMsg}>I am so custom</p>;
+      }
+    };
+
+    const MyPage = function (props) {
+      return <div><MyComponent errorLevel={props.errorLevel}/></div>;
+    };
+
+
+    ReactDOM.createRoot(document.getElementById('app'))
+      .render(<MyPage errorLevel="easy"/>);
+  </script>
+</body>
+
+</html>
+
+<!--
+Exercises:
+1. Make the flexbox component from exercise 02.02.custom-functional-jsx into a React class component. 
+2. Create a React function component that adds a <h1>Title</h1> to the class component from ex 1.
+3. Render two function components, so you get two flexboxes, each with a h1 header
+-->

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Media Query Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background-color: green;
+    }
+
+    img {
+      width: calc(100vh - 10px);
+      /* Note! spacing important */
+    }
+
+    @media screen and (min-width: 768px) {
+      body {
+        background-color: yellow;
+      }
+    }
+
+    @media screen and (min-width: 960px) {
+      body {
+        background-color: orange;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <img src="img/scones.jpg" alt="Incredible scones" />
+  <img src="img/sconesLowRes.png" alt="Incredible scones" />
+ </body>
+
+</html>
+<!--  Exercise: 
+      1. play with various units, vh, vw, %, px, with or without calc
+-->

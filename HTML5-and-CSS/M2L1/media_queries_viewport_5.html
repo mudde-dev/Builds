@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Media Query Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background-color: green;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    @media (orientation: landscape) {
+      body {
+        background-color: yellow;
+      }
+
+      img {
+        width: 49%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <img src="img/scones.jpg" alt="Incredible scones" />
+  <img src="img/sconesLowRes.png" alt="Incredible scones" />
+
+</html>
+<!--  Exercise: 
+      1. Play with img {...} min-width, max-with, height, min-height, max-height, note difference between hiRes and LowRes image
+      2. Change code so images are only visible in the largest viewport
+-->

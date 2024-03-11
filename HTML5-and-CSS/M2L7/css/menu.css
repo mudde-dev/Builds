@@ -1,0 +1,89 @@
+:root {
+    /* define a set of variables used to switch the panels on an off */
+    --panelMain0-display: none;
+    --panelMain1-display: none;
+    --panelMain2-display: none;
+    --panelMain3-display: none;
+    --panelMain4-display: none;
+    --panelMain5-display: none;
+
+    /* switch a panel on, use flex to center text */
+    
+    --panelMain1-display: flex;
+}
+
+.panelMain0 {
+    display: var(--panelMain0-display);
+}
+.panelMain1 {
+    display: var(--panelMain1-display);
+}
+.panelMain2 {
+    display: var(--panelMain2-display);
+}
+.panelMain3 {
+    display: var(--panelMain3-display);
+}
+.panelMain4 {
+    display: var(--panelMain4-display);
+}
+.panelMain5 {
+    display: var(--panelMain5-display);
+}
+
+[class^='panelMain'] {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+.navLink {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #ddd;
+    width: 80px;
+    height: 100%;
+    text-decoration: none;
+}
+
+[class^='navLink']:hover {
+    background-color: #236b7f;
+}
+
+.navMenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 600px) {
+    .navMenu {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    [class^='navLink'] {
+        width:100%;
+        height: 50px;
+    }
+}
+
+
+/* borders or outline for debugging, outlines are outside of borders and does not affect layout */
+/* switch on borders */
+/*
+[class^='panelMain'] {
+    outline: 3px dashed black;
+}
+
+.navLink {
+    outline: 3px dashed black;
+}
+.navMenu {
+    outline: 3px dashed black;
+}
+*/

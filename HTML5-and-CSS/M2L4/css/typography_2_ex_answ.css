@@ -1,0 +1,58 @@
+/* used load a custom fonts */
+@font-face {
+  font-family: 'Inter-V';
+  src: url('../fonts/inter.var.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-display: fallback;
+  font-style: oblique 0deg 10deg;
+}
+
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+}
+@font-face {
+  font-family: "Splash";
+  src: url("../fonts/Splash-Regular.ttf");
+}
+
+:root {
+  /* Font stack to ensure some generic family fonts for different browsers */
+  --FontDefault: 'Courier New', Courier, monospace;
+  --FontSet1:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --FontSet2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --FontSet3: fantasy;
+  --FontCustom1: 'Inter-V';
+  --FontCustom2: 'Bitstream Vera Serif Bold';
+  --FontCustom3: 'Splash';
+}
+
+/* Set up <body> to view the default font - just to know where we will land */
+body {
+  font-size: 1.2em;
+  font-family:var(--FontDefault);
+  font-weight: 400;
+}
+
+
+
+/* this rules will apply only for p tags with class="fontSetDefault" */
+p.fontDefault {
+  font-family: var(--FontDefault);
+}
+.fontSet1 {
+  font-family: var(--FontSet1);
+}
+p.fontSet2 {
+  font-family: var(--FontSet2);
+}
+p.fontSet3 { 
+  font-family: var(--FontSet3);
+}
+p.fontCustom { 
+  
+  /* Change to custom font */
+  font-family: var(--FontCustom3); 
+}
+
+
