@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipePage</title>
+    <link href="../styles/main.css" rel="stylesheet"/>  
+</head>
+<!--Basic recipe page-->
+    <!--Requirements: 
+        Header/ Navbar
+        Picture of the food
+        Ingredients
+        Recipe steps
+        Footer
+    -->    
+<body class="recipe-page">
+
+    <!--<div id="ingredientsList">
+
+            
+    </div>
+
+    <div id="ingredientsList2"> 
+
+
+    </div>-->
+
+<nav>
+            <!--Equivalent to mainpage on figma-->
+        
+            <div class="headerContainer" id="headerContainer">
+   
+                  <!--<h1><a href="../../index.html" class="hem">KokBokbokskonst AB</a></h1> -->
+             <a href="../../index.html" ><img src="../images/kokbokskonsr-logo.bmp" ></a>        
+                <h2><a href="../../index.html" class="nav-link">Hem</a></h2>
+                <h2><a href="RecipePage.html" class="nav-link"> Recept </a></h2>
+                <h2><a href="favoriterecipe.html" class="nav-link">Favorit Recept</a></h2>
+                <h2><a href="loginpage.html" class="nav-link">Logga in</a></h2>
+        
+                <!--put a form here!!-->
+               
+             <div class="searchbox">  
+                <form>   
+                <input type="text" placeholder=" Sök...." name="search">   
+                <button type="submit">Sök Recept</button>   
+                </form>  
+                </div>
+        
+            </div>
+     
+            <form>
+             <section class="logout-button">
+                 <label for="logout-button"> <input type="submit" id="logout-button" name="logout-button" value="logout" >
+                     <!--we couldn´t make a logut button because we would need to make
+                      use of PHP and time didn´t allow for this-->
+                 </label>
+             </section>
+     </form> 
+     
+     
+</nav>
+
+<p id="popular-recipes">Populära Recept!</p>
+
+<div class="container">
+    
+<section class="recipes-grid">
+    <div class="recipes">
+        <h2>Lasagne de luxe</h2>
+        <a href="Recipes/LasagnaDeLuxe.html">
+            <img src="../images/lasagne-de-luxe.jpg.webp" alt="Lasgna De Luxe">
+        </a>
+    </div>
+
+    <div class="recipes">
+        <h2>Mozzarellafyllda kycklingfiléer i ugn</h2>
+        <a href="../Pages/Recipes/MozzarellaKyckling.html">
+            <img src="../images/elon-mozzarellafyllda-kycklingfileer-i-ugn.png.webp" alt="Mozzarellafyllda kycklingfiléer i ugn">
+        </a>
+    </div>
+
+    <div class="recipes">
+        <h2>Pizza med inbakad mozzarella och basilika</h2>
+        <a href="../Pages/Recipes/PizzaInbakadMozzarella.html">
+            <img src="../images/pizza-med-inbakad-mozzarella-och-basilika.jpg.webp" alt="Pizza med inbakad mozzarella och basilika">
+        </a>
+    </div>
+
+    <div class="recipes">
+        <h2>Crunchy taco burger</h2>
+        <a href="../Pages/Recipes/CrunchyTacoBurger.html">
+            <img src="../images/korvbrodsbagarn-crunchy-taco-burger.png.webp" alt="Crunchy taco burger">
+        </a>
+    </div>
+
+    <div class="recipes">
+        <h2>Glutenfri semmelwrap</h2>
+        <a href="../Pages/Recipes/Glutenfri-Semmelwrap.html">
+            <img src="../images/glutenfri-semmelwrap.jpg.webp" alt="Glutenfri semmelwrap">
+        </a>
+    </div>
+
+    <div class="recipes">
+        <h2>Chokladfondant</h2>
+        <a href="../Pages/Recipes/Chokladfondant.html">
+            <img src="../images/chokladfondant-fredrik-nylens-recept.jpg.webp" alt="Chokladfondant">
+        </a>
+    </div>
+
+</div>
+
+</section>
+</body>
+</html>
