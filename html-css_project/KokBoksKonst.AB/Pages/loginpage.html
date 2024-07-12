@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage</title>
+    <link href="../styles/main.css" rel="stylesheet" /> 
+</head>
+
+<body class="loginpage">
+
+    <nav>
+        <!--Equivalent to mainpage on figma-->
+    
+        <div class="headerContainer" id="headerContainer">
+             <!--<h1><a href="../../index.html" class="hem">KokBokbokskonst AB</a></h1> -->
+             <a href="../../index.html" ><img src="../images/kokbokskonsr-logo.bmp" ></a>        
+            <h2><a href="../../index.html" class="nav-link">Hem</a></h2>
+            <h2><a href="RecipePage.html" class="nav-link"> Recept </a></h2>
+            <h2><a href="favoriterecipe.html" class="nav-link">Favorit Recept</a></h2>
+           <!-- <h2><a href="loginpage.html" class="nav-link">Logga in</a></h2> -->
+    
+            <!--put a form here!!-->
+           
+         <div class="searchbox">  
+            <form>   
+            <input type="text" placeholder=" Sök...." name="search">   
+            <button type="submit">Sök Recept</button>   
+            </form>  
+            </div>
+    
+        </div>
+ 
+        <form>
+             <section class="logout-button">
+                <label for="logout-button"> <input type="submit" id="logout-button" name="logout-button" value="logout" >
+                 <!--we couldn´t make a logut button because we would need to make
+                  use of PHP and time didn´t allow for this-->
+                </label>
+            </section>
+        </form>  
+</nav>
+
+    <div class="parent-login">
+
+        <div class="child-login">       
+
+            <label for="email">Epost:</label>
+            <input type="email" id="email" name="email" required>             
+            <label for="lösenord">Lösenord:</label>
+            <input type="password" id="lösenord" name="lösenord" required>                     
+            <input type="submit" id="submit" name="Logga In" value="Logga In" required><br>  
+
+
+
+        </div>
+
+        <div class="subLoginContainer">
+            <small ><a href="forgotpasswd.html" target="_blank" style="color: magenta;"> Glömt lösenord?</a></small>
+            <small ><a href="signuppage.html" target="_blank"style="color: magenta;" >Skriv upp dig som medlem nu.</a></small>      
+        </div>
+  
+    </div>
+        
+   
+
+
+
+    
+
+    
+</body>
+</html>

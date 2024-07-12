@@ -1,0 +1,5 @@
+C:\Users\46725\OneDrive\Programmeringsteknik C#\InlämningsUppgifter\Calculator\Calculator_1.2.exe
+C:\Users\46725\OneDrive\Programmeringsteknik C#\InlämningsUppgifter\Calculator\Calculator_1.2.dll
+C:\Users\46725\OneDrive\Programmeringsteknik C#\InlämningsUppgifter\Calculator\Calculator_1.2.deps.json
+C:\Users\46725\OneDrive\Programmeringsteknik C#\InlämningsUppgifter\Calculator\Calculator_1.2.runtimeconfig.json
+C:\Users\46725\OneDrive\Programmeringsteknik C#\InlämningsUppgifter\Calculator\Calculator_1.2.pdb
