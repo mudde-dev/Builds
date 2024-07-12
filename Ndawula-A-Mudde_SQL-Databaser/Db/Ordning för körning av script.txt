@@ -1,0 +1,12 @@
+Hej Martin!
+
+Jag skrivit siffror innanför namnet på
+scripten, och det är i den ordningen som
+de ska köras.
+Från 1 - 3.
+
+Hoppas att det funkar (för min skull).
+
+Hälsningar, 
+
+Mudde
