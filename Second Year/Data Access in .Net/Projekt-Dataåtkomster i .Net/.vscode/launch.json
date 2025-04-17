@@ -1,0 +1,27 @@
+//launch-docker-all
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "AppWebAPI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/AppWebAPI/bin/Debug/net8.0/AppWebAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/AppWebAPI",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        }
+    ]
+}

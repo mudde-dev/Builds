@@ -1,0 +1,44 @@
+﻿@page
+@model FriendCountryList
+@{
+    ViewData["Title"] = "FriendCountryList";
+}
+
+<!-- Page list-of-quotes -->
+<div class="container px-4 py-4" id="list-of-quotes">
+    <h2 class="pb-2 border-bottom">Overview Friends by country</h2>
+
+    <p>Overview Friends by country</p>
+
+   @foreach( var item in Model.Friends)
+        {
+        <!-- Page friends-by-country -->
+    <div class="container px-4 py-4" id="friends-by-country">
+        <h2 class="pb-2 border-bottom">Friends by country</h2>
+        <p>Here is a list of what cities my friends are living in.</p>
+    
+     
+        <div class="row row-cols-3 row-cols-lg-12 align-items-stretch g-4 py-5">
+          <a href="#friends-in-a-country" class="text-decoration-none">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/unsplash-photo-3.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-1 mt-1 mb-4 display-6 lh-1 fw-bold">@item.Address</h3>
+                    <p class="fs-5">@item.FirstName @item.LastName </p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+        
+    </div>
+    }
+
+    
+
+
+    
+      
+
+

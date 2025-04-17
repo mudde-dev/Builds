@@ -1,0 +1,43 @@
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.deps.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.runtimeconfig.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbModels.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Models.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Configuration.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Models.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbModels.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.csproj.AssemblyReference.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.AssemblyInfoInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.AssemblyInfo.cs
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.csproj.CoreCompileInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.sourcelink.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.csproj.CopyComplete
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\refint\DbContext.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.genruntimeconfig.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\ref\DbContext.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.deps.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.runtimeconfig.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbContext.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbModels.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Models.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Configuration.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\Models.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\bin\Debug\net8.0\DbModels.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.csproj.AssemblyReference.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.AssemblyInfoInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.AssemblyInfo.cs
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.csproj.CoreCompileInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.csproj.CopyComplete
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\refint\DbContext.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\DbContext.genruntimeconfig.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\DbContext\obj\Debug\net8.0\ref\DbContext.dll

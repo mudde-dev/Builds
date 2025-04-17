@@ -1,0 +1,25 @@
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\bin\Debug\net8.0\Configuration.deps.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\bin\Debug\net8.0\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\bin\Debug\net8.0\Configuration.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.csproj.AssemblyReference.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.AssemblyInfoInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.AssemblyInfo.cs
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.csproj.CoreCompileInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.sourcelink.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\refint\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\ref\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\bin\Debug\net8.0\Configuration.deps.json
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\bin\Debug\net8.0\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\bin\Debug\net8.0\Configuration.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.csproj.AssemblyReference.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.AssemblyInfoInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.AssemblyInfo.cs
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.csproj.CoreCompileInputs.cache
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\refint\Configuration.dll
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\Configuration.pdb
+C:\Users\46725\OneDrive\Teknikhögskolan\secondYear\Dataåtkomster i .Net\Inlämningsuppgift\Ndawula A Mudde - DataÅtkomster i .Net\Projekt-Dataåtkomster i .Net\Configuration\obj\Debug\net8.0\ref\Configuration.dll
